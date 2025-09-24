@@ -1,618 +1,1147 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing page INSTI</title>
 
     <!-- favicon -->
-     <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" >
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
 
-     <!-- CSS link -->
-      <link rel="stylesheet" href="style.css">
+    <!-- CSS link -->
+    <link rel="stylesheet" href="style.css" />
 
-      <!-- Font link -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Poppins:wght@600;700&family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+    <!-- Font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Poppins:wght@600;700&family=Rubik:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body id="top">
+    <!--  - #HEADER-->
 
-</head>
-<body id="top" >
-
-    
-  <!--  - #HEADER-->
-    
-  <header class="header" data-header>
-    <div class="container">
-
-      <div class="overlay" data-overlay></div>
-
-      <a href="#" class="logo">
-        <img src="assets/img/logo.svg" alt="Eduland logo">
-      </a>
-
-      <button class="menu-open-btn" data-menu-open-btn>
-        <ion-icon name="menu-outline"></ion-icon>
-      </button>
-
-      <nav class="navbar" data-navbar>
-
-        <button class="menu-close-btn" data-menu-close-btn>
-          <ion-icon name="close-outline"></ion-icon>
-        </button>
-
+    <!-- HEADER -->
+    <header class="header" data-header>
+      <div class="container">
+        <div class="overlay" data-overlay></div>
         <a href="#" class="logo">
-          <img src="assets/img/logo.svg" alt="Eduland logo">
+          <img src="assets/img/logo.svg" alt="INSTI-Lokossa logo" />
         </a>
+        <button class="menu-open-btn" data-menu-open-btn>
+          <ion-icon name="menu-outline"></ion-icon>
+        </button>
+        <nav class="navbar" data-navbar>
+          <button class="menu-close-btn" data-menu-close-btn>
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+          <a href="#" class="logo">
+            <img src="assets/img/logo.svg" alt="INSTI-Lokossa logo" />
+          </a>
+          <ul class="navbar-list">
+            <li><a href="#" class="navbar-link">Accueil</a></li>
+            <li><a href="#about" class="navbar-link">À Propos</a></li>
+            <li><a href="#departments" class="navbar-link">Filières</a></li>
+            <li><a href="#values" class="navbar-link">Valeurs</a></li>
+            <li>
+              <a href="#downloads" class="navbar-link">Téléchargements</a>
+            </li>
+            <li>
+              <a href="#administration" class="navbar-link">Administration</a>
+            </li>
+            <li><a href="#contact" class="navbar-link">Contact</a></li>
+          </ul>
+          <button class="btn btn-secondary">Inscription</button>
+        </nav>
+      </div>
+    </header>
 
-        <ul class="navbar-list">
+    <main>
+      <article>
+        <!-- - #HERO-->
 
-          <li>
-            <a href="#" class="navbar-link">Home</a>
-          </li>
+        <section class="hero">
+          <div class="container">
+            <figure class="hero-banner">
+              <img
+                src="assets/img/hero-banner.png"
+                alt="A young lady sits, holding a pen and a notebook."
+              />
+            </figure>
 
-          <li>
-            <a href="#" class="navbar-link">About</a>
-          </li>
+            <div class="hero-content">
+              <h1 class="h1 hero-title">Université INSTI Lokossa</h1>
 
-          <li>
-            <a href="#" class="navbar-link">Service</a>
-          </li>
+              <p class="section-text">
+                Former les ingénieurs et scientifiques de demain à travers des
+                formations innovantes et de qualité.
+              </p>
 
-          <li>
-            <a href="#" class="navbar-link">Blog</a>
-          </li>
-
-          <li>
-            <a href="#" class="navbar-link">Contact</a>
-          </li>
-
-        </ul>
-
-        <button class="btn btn-secondary">Get Started</button>
-
-      </nav>
-
-    </div>
-  </header>
-
-
-
-     <main>
-        <article>
-
-              <!-- - #HERO-->
-
-      <section class="hero">
-        <div class="container">
-
-          <figure class="hero-banner">
-            <img src="assets/img/hero-banner.png" alt="A young lady sits, holding a pen and a notebook.">
-          </figure>
-
-          <div class="hero-content">
-
-            <h1 class="h1 hero-title">Start Your Future Education</h1>
-
-            <p class="section-text">
-              Credibly redefine distinctive total linkage vis-a-vis multifunction data. Phosphorescently impact
-              goal-oriented
-              strategic
-            </p>
-
-            <button class="btn btn-primary">Discover More</button>
-
+              <button class="btn btn-primary">En savoir plus</button>
+            </div>
           </div>
-
-        </div>
-      </section>
-
-
-
-  
+        </section>
 
         <!-- 
         - #ABOUT
       -->
 
-      <section class="about">
-        <div class="container">
+        <section class="about">
+          <div class="container">
+            <figure class="about-banner">
+              <img
+                src="assets/img/about-banner.png"
+                alt="Eduland students"
+                class="about-img"
+              />
 
-          <figure class="about-banner">
+              <img
+                src="assets/img/about-vector.svg"
+                alt="Vector line art"
+                class="vector-line"
+              />
 
-            <img src="assets/img/about-banner.png" alt="Eduland students" class="about-img">
+              <button class="play-btn">
+                <ion-icon name="play"></ion-icon>
+              </button>
+            </figure>
 
-            <img src="assets/img/about-vector.svg" alt="Vector line art" class="vector-line">
+            <div class="about-content">
+              <h2 class="h2 about-title">
+                We Help to Create Possibility & Success in Your Career!
+              </h2>
 
-            <button class="play-btn">
-              <ion-icon name="play"></ion-icon>
-            </button>
+              <p class="section-text">
+                Continually administrate process-centric human capital rather
+                than bleeding-edge methodologies. Distinctively supply accurate
+                methods of empowerment before.
+              </p>
 
-          </figure>
-
-          <div class="about-content">
-
-            <h2 class="h2 about-title">We Help to Create Possibility & Success in Your Career!</h2>
-
-            <p class="section-text">
-              Continually administrate process-centric human capital rather than bleeding-edge methodologies.
-              Distinctively supply
-              accurate methods of empowerment before.
-            </p>
-
-            <button class="btn btn-primary">Get Started Today</button>
-
+              <button class="btn btn-primary">Get Started Today</button>
+            </div>
           </div>
-
-        </div>
-      </section>
+        </section>
 
         <!-- 
         - #DEPARTMENTS
       -->
 
-      <section class="departments">
-        <div class="container">
+        <section class="departments">
+          <div class="container">
+            <img
+              src="assets/img/departmets-vector.svg"
+              alt="Vector line art"
+              class="vector-line"
+            />
 
-          <img src="assets/img/departmets-vector.svg" alt="Vector line art" class="vector-line">
+            <h2 class="h2 departments-title">
+              We Have Most of Popular Departments
+            </h2>
 
-          <h2 class="h2 departments-title">We Have Most of Popular Departments</h2>
+            <ul class="departments-list">
+              <li>
+                <div class="departments-card">
+                  <a href="#" class="card-banner">
+                    <figure>
+                      <img
+                        src="assets/img/depertment-1.png"
+                        alt="Artificial Intelligence"
+                      />
+                    </figure>
+                  </a>
 
-          <ul class="departments-list">
+                  <a href="#">
+                    <h3 class="h3 card-title">Artificial Intelligence</h3>
+                  </a>
 
-            <li>
-              <div class="departments-card">
+                  <p class="card-text">
+                    Assertively parallel task synergistic deliverables after
+                    high-quality.
+                  </p>
 
-                <a href="#" class="card-banner">
-                  <figure>
-                    <img src="assets/img/depertment-1.png" alt="Artificial Intelligence">
-                  </figure>
-                </a>
+                  <a href="#" class="card-link">
+                    <span>Learn More</span>
 
-                <a href="#">
-                  <h3 class="h3 card-title">Artificial Intelligence</h3>
-                </a>
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </a>
+                </div>
+              </li>
 
-                <p class="card-text">
-                  Assertively parallel task synergistic deliverables after high-quality.
-                </p>
+              <li>
+                <div class="departments-card">
+                  <a href="#" class="card-banner">
+                    <figure>
+                      <img
+                        src="assets/img/depertment-2.png"
+                        alt="Civil Engineering"
+                      />
+                    </figure>
+                  </a>
 
-                <a href="#" class="card-link">
-                  <span>Learn More</span>
+                  <a href="#">
+                    <h3 class="h3 card-title">Civil Engineering</h3>
+                  </a>
 
-                  <ion-icon name="arrow-forward"></ion-icon>
-                </a>
+                  <p class="card-text">
+                    Assertively parallel task synergistic deliverables after
+                    high-quality.
+                  </p>
 
-              </div>
-            </li>
+                  <a href="#" class="card-link">
+                    <span>Learn More</span>
 
-            <li>
-              <div class="departments-card">
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </a>
+                </div>
+              </li>
 
-                <a href="#" class="card-banner">
-                  <figure>
-                    <img src="assets/img/depertment-2.png" alt="Civil Engineering">
-                  </figure>
-                </a>
+              <li>
+                <div class="departments-card">
+                  <a href="#" class="card-banner">
+                    <figure>
+                      <img
+                        src="assets/img/depertment-3.png"
+                        alt="Business Studies"
+                      />
+                    </figure>
+                  </a>
 
-                <a href="#">
-                  <h3 class="h3 card-title">Civil Engineering</h3>
-                </a>
+                  <a href="#">
+                    <h3 class="h3 card-title">Business Studies</h3>
+                  </a>
 
-                <p class="card-text">
-                  Assertively parallel task synergistic deliverables after high-quality.
-                </p>
+                  <p class="card-text">
+                    Assertively parallel task synergistic deliverables after
+                    high-quality.
+                  </p>
 
-                <a href="#" class="card-link">
-                  <span>Learn More</span>
+                  <a href="#" class="card-link">
+                    <span>Learn More</span>
 
-                  <ion-icon name="arrow-forward"></ion-icon>
-                </a>
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </a>
+                </div>
+              </li>
+            </ul>
 
-              </div>
-            </li>
-
-            <li>
-              <div class="departments-card">
-
-                <a href="#" class="card-banner">
-                  <figure>
-                    <img src="assets/img/depertment-3.png" alt="Business Studies">
-                  </figure>
-                </a>
-
-                <a href="#">
-                  <h3 class="h3 card-title">Business Studies</h3>
-                </a>
-
-                <p class="card-text">
-                  Assertively parallel task synergistic deliverables after high-quality.
-                </p>
-
-                <a href="#" class="card-link">
-                  <span>Learn More</span>
-
-                  <ion-icon name="arrow-forward"></ion-icon>
-                </a>
-
-              </div>
-            </li>
-
-          </ul>
-
-          <button class="btn btn-primary">View All Department</button>
-
-        </div>
-      </section>
-
-
-
-
+            <button class="btn btn-primary">View All Department</button>
+          </div>
+        </section>
 
         <!-- Instructor-->
-       <section class="instructor">
-        <div class="container">
+        <section class="instructor">
+          <div class="container">
+            <img
+              src="assets/img/instructor-vactor-1.svg"
+              alt="Vector line art"
+              class="vector-line"
+            />
 
-          <img src="assets/img/instructor-vactor-1.svg" alt="Vector line art" class="vector-line">
+            <div class="title-wrapper">
+              <h2 class="h2 instructor-title">
+                Introduce with Our Famous Teacher
+              </h2>
 
-          <div class="title-wrapper">
-            <h2 class="h2 instructor-title">Introduce with Our Famous Teacher</h2>
+              <button class="btn btn-primary">View All Teachers</button>
+            </div>
 
-            <button class="btn btn-primary">View All Teachers</button>
+            <ul class="instructor-list">
+              <li>
+                <div class="instructor-card">
+                  <figure class="card-banner">
+                    <img src="assets/img/instructor-1.png" alt="Shaapir Prio" />
+                  </figure>
+
+                  <a href="#">
+                    <h3 class="card-title">Shaapir Prio</h3>
+                  </a>
+
+                  <p class="card-subtitle">Assistant Director</p>
+
+                  <ul class="card-social-list">
+                    <li>
+                      <a href="#" class="card-social-link">
+                        <ion-icon name="logo-google"></ion-icon>
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-social-link">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-social-link">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-social-link">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <li>
+                <div class="instructor-card">
+                  <figure class="card-banner">
+                    <img src="assets/img/instructor-2 (2).png" alt="Sellina" />
+                  </figure>
+
+                  <a href="#">
+                    <h3 class="card-title">Sellina</h3>
+                  </a>
+
+                  <p class="card-subtitle">Director</p>
+
+                  <ul class="card-social-list">
+                    <li>
+                      <a href="#" class="card-social-link">
+                        <ion-icon name="logo-google"></ion-icon>
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-social-link">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-social-link">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-social-link">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <li>
+                <div class="instructor-card">
+                  <figure class="card-banner">
+                    <img src="assets/img/instructor-3.png" alt="John Smith" />
+                  </figure>
+
+                  <a href="#">
+                    <h3 class="card-title">John Smith</h3>
+                  </a>
+
+                  <p class="card-subtitle">Assistant Director</p>
+
+                  <ul class="card-social-list">
+                    <li>
+                      <a href="#" class="card-social-link">
+                        <ion-icon name="logo-google"></ion-icon>
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-social-link">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-social-link">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-social-link">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+
+            <img
+              src="assets/img/instructor-vactor-1.svg"
+              alt="Vector line art"
+              class="vector-line"
+            />
           </div>
+        </section>
 
-          <ul class="instructor-list">
-
-            <li>
-              <div class="instructor-card">
-
-                <figure class="card-banner">
-                  <img src="assets/img/instructor-1.png" alt="Shaapir Prio">
-                </figure>
-
-                <a href="#">
-                  <h3 class="card-title">Shaapir Prio</h3>
-                </a>
-
-                <p class="card-subtitle">Assistant Director</p>
-
-                <ul class="card-social-list">
-
-                  <li>
-                    <a href="#" class="card-social-link">
-                      <ion-icon name="logo-google"></ion-icon>
-                    </a>
-                  </li>
-
-                  <li>
-                    <a href="#" class="card-social-link">
-                      <ion-icon name="logo-twitter"></ion-icon>
-                    </a>
-                  </li>
-
-                  <li>
-                    <a href="#" class="card-social-link">
-                      <ion-icon name="logo-instagram"></ion-icon>
-                    </a>
-                  </li>
-
-                  <li>
-                    <a href="#" class="card-social-link">
-                      <ion-icon name="logo-linkedin"></ion-icon>
-                    </a>
-                  </li>
-
-                </ul>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="instructor-card">
-
-                <figure class="card-banner">
-                  <img src="assets/img/instructor-2 (2).png" alt="Sellina">
-                </figure>
-
-                <a href="#">
-                  <h3 class="card-title">Sellina</h3>
-                </a>
-
-                <p class="card-subtitle">Director</p>
-
-                <ul class="card-social-list">
-
-                  <li>
-                    <a href="#" class="card-social-link">
-                      <ion-icon name="logo-google"></ion-icon>
-                    </a>
-                  </li>
-
-                  <li>
-                    <a href="#" class="card-social-link">
-                      <ion-icon name="logo-twitter"></ion-icon>
-                    </a>
-                  </li>
-
-                  <li>
-                    <a href="#" class="card-social-link">
-                      <ion-icon name="logo-instagram"></ion-icon>
-                    </a>
-                  </li>
-
-                  <li>
-                    <a href="#" class="card-social-link">
-                      <ion-icon name="logo-linkedin"></ion-icon>
-                    </a>
-                  </li>
-
-                </ul>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="instructor-card">
-
-                <figure class="card-banner">
-                  <img src="assets/img/instructor-3.png" alt="John Smith">
-                </figure>
-
-                <a href="#">
-                  <h3 class="card-title">John Smith</h3>
-                </a>
-
-                <p class="card-subtitle">Assistant Director</p>
-
-                <ul class="card-social-list">
-
-                  <li>
-                    <a href="#" class="card-social-link">
-                      <ion-icon name="logo-google"></ion-icon>
-                    </a>
-                  </li>
-
-                  <li>
-                    <a href="#" class="card-social-link">
-                      <ion-icon name="logo-twitter"></ion-icon>
-                    </a>
-                  </li>
-
-                  <li>
-                    <a href="#" class="card-social-link">
-                      <ion-icon name="logo-instagram"></ion-icon>
-                    </a>
-                  </li>
-
-                  <li>
-                    <a href="#" class="card-social-link">
-                      <ion-icon name="logo-linkedin"></ion-icon>
-                    </a>
-                  </li>
-
-                </ul>
-
-              </div>
-            </li>
-
-          </ul>
-
-          <img src="assets/img/instructor-vactor-1.svg" alt="Vector line art" class="vector-line">
-
-        </div>
-      </section>
-
-
-
-
-         <!-- 
+        <!-- 
         - #CTA
       -->
 
-      <section class="cta">
-        <div class="container">
-
-          <div class="title-wrapper">
-
-            <h2 class="h2 cta-title">
-              <span>Create Free Account & Get Register</span>
-
-              <img src="assets/img/cta-vector (2).svg" alt="Vector arrow art" class="vector-line">
-            </h2>
-
-            <button class="btn btn-primary">Register Now</button>
-
+        <!-- CTA déplacé avant le footer -->
+        <section class="cta fade-in">
+          <div class="container">
+            <div class="title-wrapper">
+              <h2 class="h2 cta-title">
+                <span>Inscription Ouverte - Rejoignez INSTI-Lokossa</span>
+                <img
+                  src="assets/img/cta-vector (2).svg"
+                  alt="Vector arrow art"
+                  class="vector-line"
+                />
+              </h2>
+              <button class="btn btn-primary">S'inscrire Maintenant</button>
+            </div>
+            <div class="cta-banner"></div>
           </div>
+        </section>
 
-          <div class="cta-banner"></div>
+        <!-- NOUVELLE SECTION: VALEURS -->
+        <section class="values" id="values">
+          <div class="container">
+            <h2 class="h2 values-title">Nos Valeurs & Engagements</h2>
+            <div class="values-grid">
+              <div class="value-card">
+                <div class="value-icon">
+                  <ion-icon name="school-outline"></ion-icon>
+                </div>
+                <h3 class="value-title">Excellence Académique</h3>
+                <p class="value-description">
+                  Nous maintenons les plus hauts standards d'enseignement avec
+                  des programmes constamment mis à jour selon les exigences du
+                  marché.
+                </p>
+              </div>
+              <div class="value-card">
+                <div class="value-icon">
+                  <ion-icon name="lightbulb-outline"></ion-icon>
+                </div>
+                <h3 class="value-title">Innovation Pédagogique</h3>
+                <p class="value-description">
+                  Méthodes d'enseignement modernes intégrant les dernières
+                  technologies et approches pédagogiques interactives.
+                </p>
+              </div>
+              <div class="value-card">
+                <div class="value-icon">
+                  <ion-icon name="people-outline"></ion-icon>
+                </div>
+                <h3 class="value-title">Accompagnement Personnalisé</h3>
+                <p class="value-description">
+                  Chaque étudiant bénéficie d'un suivi individualisé pour
+                  maximiser ses chances de réussite académique et
+                  professionnelle.
+                </p>
+              </div>
+              <div class="value-card">
+                <div class="value-icon">
+                  <ion-icon name="globe-outline"></ion-icon>
+                </div>
+                <h3 class="value-title">Ouverture Internationale</h3>
+                <p class="value-description">
+                  Partenariats avec des universités prestigieuses et
+                  opportunités de mobilité étudiante à l'international.
+                </p>
+              </div>
+              <div class="value-card">
+                <div class="value-icon">
+                  <ion-icon name="briefcase-outline"></ion-icon>
+                </div>
+                <h3 class="value-title">Insertion Professionnelle</h3>
+                <p class="value-description">
+                  Fort réseau d'entreprises partenaires et taux d'employabilité
+                  de 95% dans les 6 mois suivant la diplomation.
+                </p>
+              </div>
+              <div class="value-card">
+                <div class="value-icon">
+                  <ion-icon name="leaf-outline"></ion-icon>
+                </div>
+                <h3 class="value-title">Responsabilité Sociétale</h3>
+                <p class="value-description">
+                  Engagement fort pour le développement durable et la formation
+                  de citoyens responsables et engagés.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
 
-        </div>
-      </section>
+        <!-- NOUVELLE SECTION: CALENDRIER SCOLAIRE -->
+        <section class="calendar">
+          <div class="container">
+            <h2 class="h2 calendar-title">Calendrier Académique 2024-2025</h2>
+            <div class="calendar-grid">
+              <div class="calendar-card">
+                <div class="calendar-date">15 Septembre 2024</div>
+                <h3 class="calendar-event">Rentrée Académique</h3>
+                <p class="calendar-description">
+                  Début des cours pour tous les niveaux. Séances d'accueil et
+                  d'orientation pour les nouveaux étudiants.
+                </p>
+              </div>
+              <div class="calendar-card">
+                <div class="calendar-date">1 - 15 Octobre 2024</div>
+                <h3 class="calendar-event">Période d'Inscriptions Tardives</h3>
+                <p class="calendar-description">
+                  Dernière chance pour les inscriptions avec frais
+                  supplémentaires. Places limitées.
+                </p>
+              </div>
+              <div class="calendar-card">
+                <div class="calendar-date">20 - 25 Décembre 2024</div>
+                <h3 class="calendar-event">Examens du 1er Semestre</h3>
+                <p class="calendar-description">
+                  Session d'examens de fin du premier semestre. Rattrapages
+                  programmés en janvier.
+                </p>
+              </div>
+              <div class="calendar-card">
+                <div class="calendar-date">8 Janvier 2025</div>
+                <h3 class="calendar-event">Début 2ème Semestre</h3>
+                <p class="calendar-description">
+                  Reprise des cours et début du second semestre académique.
+                </p>
+              </div>
+              <div class="calendar-card">
+                <div class="calendar-date">15 - 30 Mars 2025</div>
+                <h3 class="calendar-event">Semaine de Stage</h3>
+                <p class="calendar-description">
+                  Période dédiée aux stages professionnels et projets
+                  d'entreprise pour tous les niveaux.
+                </p>
+              </div>
+              <div class="calendar-card">
+                <div class="calendar-date">15 - 20 Juin 2025</div>
+                <h3 class="calendar-event">Examens Finaux</h3>
+                <p class="calendar-description">
+                  Session d'examens de fin d'année. Soutenances de projets de
+                  fin d'études.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
 
-    </article>
-  </main>
-  
-  <!-- 
+        <!-- NOUVELLE SECTION: TÉLÉCHARGEMENTS -->
+        <section class="downloads" id="downloads">
+          <div class="container">
+            <h2 class="h2 downloads-title">Documents & Téléchargements</h2>
+            <div class="downloads-grid">
+              <div class="download-card">
+                <div class="download-icon">
+                  <ion-icon name="document-text-outline"></ion-icon>
+                </div>
+                <div class="download-info">
+                  <h3>Dossier d'Inscription 2024-2025</h3>
+                  <p>
+                    Formulaire complet avec pièces requises et modalités
+                    d'admission
+                  </p>
+                  <a href="#" class="download-link">Télécharger PDF (2.3 MB)</a>
+                </div>
+              </div>
+              <div class="download-card">
+                <div class="download-icon">
+                  <ion-icon name="calendar-outline"></ion-icon>
+                </div>
+                <div class="download-info">
+                  <h3>Calendrier Académique</h3>
+                  <p>Dates importantes, examens, vacances et événements</p>
+                  <a href="#" class="download-link">Télécharger PDF (1.8 MB)</a>
+                </div>
+              </div>
+              <div class="download-card">
+                <div class="download-icon">
+                  <ion-icon name="card-outline"></ion-icon>
+                </div>
+                <div class="download-info">
+                  <h3>Grille Tarifaire</h3>
+                  <p>Frais de scolarité et modalités de paiement détaillées</p>
+                  <a href="#" class="download-link">Télécharger PDF (0.8 MB)</a>
+                </div>
+              </div>
+              <div class="download-card">
+                <div class="download-icon">
+                  <ion-icon name="library-outline"></ion-icon>
+                </div>
+                <div class="download-info">
+                  <h3>Guide des Programmes</h3>
+                  <p>Descriptifs complets de toutes nos formations</p>
+                  <a href="#" class="download-link">Télécharger PDF (5.2 MB)</a>
+                </div>
+              </div>
+              <div class="download-card">
+                <div class="download-icon">
+                  <ion-icon name="shield-outline"></ion-icon>
+                </div>
+                <div class="download-info">
+                  <h3>Règlement Intérieur</h3>
+                  <p>Règles de vie étudiante et procédures académiques</p>
+                  <a href="#" class="download-link">Télécharger PDF (1.5 MB)</a>
+                </div>
+              </div>
+              <div class="download-card">
+                <div class="download-icon">
+                  <ion-icon name="map-outline"></ion-icon>
+                </div>
+                <div class="download-info">
+                  <h3>Plan du Campus</h3>
+                  <p>Localisation des bâtiments et services sur le campus</p>
+                  <a href="#" class="download-link">Télécharger PDF (3.7 MB)</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- NOUVELLE SECTION: PROGRAMMES DÉTAILLÉS -->
+        <section class="programs-detailed">
+          <div class="container">
+            <h2 class="h2 programs-detailed-title">Détail de nos Formations</h2>
+            <div class="program-detailed-card">
+              <div class="program-header">
+                <h3>Intelligence Artificielle & Data Science</h3>
+                <p class="program-duration">Licence (3 ans) • Master (2 ans)</p>
+              </div>
+              <div class="program-content">
+                <div class="program-modules">
+                  <div class="module-item">
+                    <div class="module-icon">
+                      <ion-icon name="code-outline"></ion-icon>
+                    </div>
+                    <div>
+                      <h4 class="module-title">Programmation & Algorithmes</h4>
+                      <p>Python, R, Java, C++</p>
+                    </div>
+                  </div>
+                  <div class="module-item">
+                    <div class="module-icon">
+                      <ion-icon name="analytics-outline"></ion-icon>
+                    </div>
+                    <div>
+                      <h4 class="module-title">Machine Learning</h4>
+                      <p>Apprentissage supervisé et non supervisé</p>
+                    </div>
+                  </div>
+                  <div class="module-item">
+                    <div class="module-icon">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <div>
+                      <h4 class="module-title">Vision par Ordinateur</h4>
+                      <p>Traitement d'images et reconnaissance</p>
+                    </div>
+                  </div>
+                  <div class="module-item">
+                    <div class="module-icon">
+                      <ion-icon name="server-outline"></ion-icon>
+                    </div>
+                    <div>
+                      <h4 class="module-title">Big Data & Cloud</h4>
+                      <p>Hadoop, Spark, AWS, Azure</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="program-footer">
+                  <button class="btn btn-primary">Candidater Maintenant</button>
+                </div>
+              </div>
+            </div>
+            <div class="program-detailed-card">
+              <div class="program-header">
+                <h3>Génie Informatique & Logiciel</h3>
+                <p class="program-duration">Licence (3 ans) • Master (2 ans)</p>
+              </div>
+              <div class="program-content">
+                <div class="program-modules">
+                  <div class="module-item">
+                    <div class="module-icon">
+                      <ion-icon name="desktop-outline"></ion-icon>
+                    </div>
+                    <div>
+                      <h4 class="module-title">Développement Web & Mobile</h4>
+                      <p>React, Angular, Flutter, React Native</p>
+                    </div>
+                  </div>
+                  <div class="module-item">
+                    <div class="module-icon">
+                      <ion-icon name="shield-checkmark-outline"></ion-icon>
+                    </div>
+                    <div>
+                      <h4 class="module-title">Cybersécurité</h4>
+                      <p>Sécurité des systèmes et réseaux</p>
+                    </div>
+                  </div>
+                  <div class="module-item">
+                    <div class="module-icon">
+                      <ion-icon name="layers-outline"></ion-icon>
+                    </div>
+                    <div>
+                      <h4 class="module-title">Architecture Logicielle</h4>
+                      <p>Patterns, microservices, DevOps</p>
+                    </div>
+                  </div>
+                  <div class="module-item">
+                    <div class="module-icon">
+                      <ion-icon name="storefront-outline"></ion-icon>
+                    </div>
+                    <div>
+                      <h4 class="module-title">Gestion de Projets IT</h4>
+                      <p>Agile, Scrum, Lean Management</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="program-footer">
+                  <button class="btn btn-primary">Candidater Maintenant</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- NOUVELLE SECTION: ADMINISTRATION -->
+        <section class="administration fade-in" id="administration">
+          <div class="container">
+            <h2 class="h2" style="text-align: center; margin-bottom: 60px">
+              Membres Administratifs
+            </h2>
+            <div
+              class="admin-grid"
+              style="
+                display: grid;
+                gap: 40px;
+                grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+              "
+            >
+              <div
+                class="admin-card"
+                style="
+                  background: var(--cultured);
+                  border-radius: 20px;
+                  padding: 30px;
+                  text-align: center;
+                "
+              >
+                <img
+                  src="assets/img/admin-1.png"
+                  alt="Prof. Jean AGBO"
+                  style="width: 80px; border-radius: 50%; margin-bottom: 20px"
+                />
+                <h3
+                  style="color: var(--rich-black-fogra-29); margin-bottom: 10px"
+                >
+                  Prof. Jean AGBO
+                </h3>
+                <p style="color: var(--sonic-silver); margin-bottom: 5px">
+                  Directeur Général
+                </p>
+                <p style="color: var(--sonic-silver); font-size: 15px">
+                  INSTI-Lokossa
+                </p>
+              </div>
+              <div
+                class="admin-card"
+                style="
+                  background: var(--cultured);
+                  border-radius: 20px;
+                  padding: 30px;
+                  text-align: center;
+                "
+              >
+                <img
+                  src="assets/img/admin-2.png"
+                  alt="Dr. Marie KOFFI"
+                  style="width: 80px; border-radius: 50%; margin-bottom: 20px"
+                />
+                <h3
+                  style="color: var(--rich-black-fogra-29); margin-bottom: 10px"
+                >
+                  Dr. Marie KOFFI
+                </h3>
+                <p style="color: var(--sonic-silver); margin-bottom: 5px">
+                  Directrice Académique
+                </p>
+                <p style="color: var(--sonic-silver); font-size: 15px">
+                  INSTI-Lokossa
+                </p>
+              </div>
+              <div
+                class="admin-card"
+                style="
+                  background: var(--cultured);
+                  border-radius: 20px;
+                  padding: 30px;
+                  text-align: center;
+                "
+              >
+                <img
+                  src="assets/img/admin-3.png"
+                  alt="Dr. Paul DOSSA"
+                  style="width: 80px; border-radius: 50%; margin-bottom: 20px"
+                />
+                <h3
+                  style="color: var(--rich-black-fogra-29); margin-bottom: 10px"
+                >
+                  Dr. Paul DOSSA
+                </h3>
+                <p style="color: var(--sonic-silver); margin-bottom: 5px">
+                  Chef Département Génie Logiciel
+                </p>
+                <p style="color: var(--sonic-silver); font-size: 15px">
+                  INSTI-Lokossa
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- NOUVELLE SECTION: CONTACT -->
+        <section
+          class="contact fade-in"
+          id="contact"
+          style="padding-bottom: 80px"
+        >
+          <div class="container" style="max-width: 1200px">
+            <h2
+              class="h2"
+              style="
+                text-align: center;
+                margin-bottom: 80px;
+                color: var(--rich-black-fogra-29);
+              "
+            >
+              Contactez-Nous
+            </h2>
+            <div
+              style="
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 60px;
+                align-items: start;
+              "
+            >
+              <!-- Informations de Contact -->
+              <div>
+                <h3
+                  class="h3"
+                  style="margin-bottom: 30px; color: var(--rich-black-fogra-29)"
+                >
+                  Informations Pratiques
+                </h3>
+                <div style="display: grid; gap: 30px">
+                  <div style="display: flex; align-items: center; gap: 20px">
+                    <div
+                      style="
+                        width: 50px;
+                        height: 50px;
+                        background: var(--orange-web);
+                        border-radius: 50%;
+                        display: grid;
+                        place-items: center;
+                        flex-shrink: 0;
+                      "
+                    >
+                      <ion-icon
+                        name="location-outline"
+                        style="font-size: 24px; color: var(--white)"
+                      ></ion-icon>
+                    </div>
+                    <div>
+                      <h4
+                        style="
+                          font-weight: var(--fw-500);
+                          margin-bottom: 5px;
+                          color: var(--rich-black-fogra-29);
+                        "
+                      >
+                        Adresse
+                      </h4>
+                      <p
+                        style="
+                          color: var(--sonic-silver);
+                          font-family: var(--ff-rubik);
+                        "
+                      >
+                        123 Avenue de l'Innovation<br />Lokossa, Mono, Bénin
+                      </p>
+                    </div>
+                  </div>
+                  <div style="display: flex; align-items: center; gap: 20px">
+                    <div
+                      style="
+                        width: 50px;
+                        height: 50px;
+                        background: var(--orange-web);
+                        border-radius: 50%;
+                        display: grid;
+                        place-items: center;
+                        flex-shrink: 0;
+                      "
+                    >
+                      <ion-icon
+                        name="call-outline"
+                        style="font-size: 24px; color: var(--white)"
+                      ></ion-icon>
+                    </div>
+                    <div>
+                      <h4
+                        style="
+                          font-weight: var(--fw-500);
+                          margin-bottom: 5px;
+                          color: var(--rich-black-fogra-29);
+                        "
+                      >
+                        Téléphone
+                      </h4>
+                      <p
+                        style="
+                          color: var(--sonic-silver);
+                          font-family: var(--ff-rubik);
+                        "
+                      >
+                        +229 21 00 00 00
+                      </p>
+                    </div>
+                  </div>
+                  <div style="display: flex; align-items: center; gap: 20px">
+                    <div
+                      style="
+                        width: 50px;
+                        height: 50px;
+                        background: var(--orange-web);
+                        border-radius: 50%;
+                        display: grid;
+                        place-items: center;
+                        flex-shrink: 0;
+                      "
+                    >
+                      <ion-icon
+                        name="mail-outline"
+                        style="font-size: 24px; color: var(--white)"
+                      ></ion-icon>
+                    </div>
+                    <div>
+                      <h4
+                        style="
+                          font-weight: var(--fw-500);
+                          margin-bottom: 5px;
+                          color: var(--rich-black-fogra-29);
+                        "
+                      >
+                        Email
+                      </h4>
+                      <p
+                        style="
+                          color: var(--sonic-silver);
+                          font-family: var(--ff-rubik);
+                        "
+                      >
+                        contact@insti-lokossa.bj
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Formulaire de Contact -->
+              <div>
+                <h3
+                  class="h3"
+                  style="margin-bottom: 30px; color: var(--rich-black-fogra-29)"
+                >
+                  Envoyez-nous un Message
+                </h3>
+                <form style="display: grid; gap: 20px">
+                  <input
+                    type="text"
+                    placeholder="Votre nom"
+                    required
+                    style="
+                      padding: 15px;
+                      border-radius: 10px;
+                      border: 1px solid var(--silver-chalice);
+                      font-family: var(--ff-rubik);
+                    "
+                  />
+                  <input
+                    type="email"
+                    placeholder="Votre email"
+                    required
+                    style="
+                      padding: 15px;
+                      border-radius: 10px;
+                      border: 1px solid var(--silver-chalice);
+                      font-family: var(--ff-rubik);
+                    "
+                  />
+                  <textarea
+                    rows="5"
+                    placeholder="Votre message"
+                    required
+                    style="
+                      padding: 15px;
+                      border-radius: 10px;
+                      border: 1px solid var(--silver-chalice);
+                      font-family: var(--ff-rubik);
+                    "
+                  ></textarea>
+                  <button
+                    type="submit"
+                    class="btn btn-primary"
+                    style="width: 100%"
+                  >
+                    Envoyer
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!-- 
     - #FOOTER
   -->
 
+    <!-- FOOTER -->
     <footer class="footer">
-
-    <div class="footer-top">
-      <div class="container">
-
-        <div class="footer-brand">
-
-          <a href="#" class="logo">
-            <img src="assets/img/logo.svg" alt="Eduland logo">
-          </a>
-
-          <p class="footer-text">
-            Professionally scale cross functional human capital and extensive technology.
+      <div class="footer-top">
+        <div class="container">
+          <div class="footer-brand">
+            <a href="#" class="logo">
+              <img src="assets/img/logo.svg" alt="INSTI-Lokossa logo" />
+            </a>
+            <p class="footer-text">
+              Institut Supérieur de Technologie et d'Innovation de Lokossa -
+              Former les talents de demain.
+            </p>
+            <ul class="social-list">
+              <li>
+                <a href="#" class="social-link"
+                  ><ion-icon name="logo-google"></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a href="#" class="social-link"
+                  ><ion-icon name="logo-twitter"></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a href="#" class="social-link"
+                  ><ion-icon name="logo-instagram"></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a href="#" class="social-link"
+                  ><ion-icon name="logo-linkedin"></ion-icon
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-link-box">
+            <ul class="footer-list">
+              <li><p class="footer-link-title">Services</p></li>
+              <li><a href="#" class="footer-link">Design</a></li>
+              <li><a href="#" class="footer-link">Développement</a></li>
+              <li><a href="#" class="footer-link">Marketing</a></li>
+              <li><a href="#" class="footer-link">Rédaction</a></li>
+            </ul>
+            <ul class="footer-list">
+              <li><p class="footer-link-title">École</p></li>
+              <li><a href="#" class="footer-link">À Propos</a></li>
+              <li><a href="#" class="footer-link">Conditions</a></li>
+              <li>
+                <a href="#" class="footer-link">Politique de confidentialité</a>
+              </li>
+              <li><a href="#" class="footer-link">Carrières</a></li>
+            </ul>
+            <ul class="footer-list">
+              <li><p class="footer-link-title">Infos</p></li>
+              <li><a href="#" class="footer-link">Sélection</a></li>
+              <li><a href="#" class="footer-link">Services</a></li>
+              <li><a href="#" class="footer-link">Paiement</a></li>
+            </ul>
+            <ul class="footer-list">
+              <li><p class="footer-link-title">Contact</p></li>
+              <li class="contact-item">
+                <span>Téléphone : </span
+                ><a href="tel:+22921000000" class="contact-link"
+                  >+229 21 00 00 00</a
+                >
+              </li>
+              <li class="contact-item">
+                <span>Email : </span
+                ><a href="mailto:contact@insti-lokossa.bj" class="contact-link"
+                  >contact@insti-lokossa.bj</a
+                >
+              </li>
+              <li class="contact-item">
+                <span>Adresse : </span
+                ><a href="#" class="contact-link"
+                  ><address>
+                    123 Avenue de l'Innovation, Lokossa, Bénin
+                  </address></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <p class="copyright">
+            &copy; 2025 <a href="">INSTI-Lokossa</a>. Tous droits réservés
           </p>
-
-          <ul class="social-list">
-
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-google"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-twitter"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-instagram"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-linkedin"></ion-icon>
-              </a>
-            </li>
-
-          </ul>
-
         </div>
-
-        <div class="footer-link-box">
-
-          <ul class="footer-list">
-
-            <li>
-              <p class="footer-link-title">Services</p>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link">Design</a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link">Development</a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link">Marketing</a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link">Content Writing</a>
-            </li>
-
-          </ul>
-
-          <ul class="footer-list">
-
-            <li>
-              <p class="footer-link-title">Company</p>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link">About</a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link">Terms</a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link">Privacy Policy</a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link">Careers</a>
-            </li>
-
-          </ul>
-
-          <ul class="footer-list">
-
-            <li>
-              <p class="footer-link-title">Job Info</p>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link">Select</a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link">Services</a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link">Payment</a>
-            </li>
-
-          </ul>
-
-          <ul class="footer-list">
-
-            <li>
-              <p class="footer-link-title">Contact</p>
-            </li>
-
-            <li class="contact-item">
-              <span>Call : </span>
-
-              <a href="tel:5463876387" class="contact-link">546 3876 387</a>
-            </li>
-
-            <li class="contact-item">
-              <span>Email : </span>
-
-              <a href="mailto:example@gmail.com" class="contact-link">example@gmail.com</a>
-            </li>
-
-            <li class="contact-item">
-              <span>Address : </span>
-
-              <a href="#" class="contact-link">
-                <address>San Francisco, USA</address>
-              </a>
-            </li>
-
-          </ul>
-
-        </div>
-
       </div>
-    </div>
+    </footer>
 
-    <div class="footer-bottom">
-      <div class="container">
-        <p class="copyright">
-          &copy; 2022 <a href="">codewithsadee</a>. All right reserved
-        </p>
-      </div>
-    </div>
-
-  </footer>
-
-
-
-  <!-- 
+    <!-- 
     - #GO TO TOP
   -->
 
-  <a href="#top" class="go-top" data-go-top>
-    <ion-icon name="arrow-up"></ion-icon>
-  </a>
-
-
+    <a href="#top" class="go-top" data-go-top>
+      <ion-icon name="arrow-up"></ion-icon>
+    </a>
 
     <!-- JS link -->
     <script src="script.js"></script>
 
     <!-- ionicon link -->
- <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
 
-</body>
+    <script>
+      // Effet fade-in sur scroll
+      document.addEventListener("DOMContentLoaded", function () {
+        const faders = document.querySelectorAll(".fade-in");
+        const appearOptions = {
+          threshold: 0.2,
+          rootMargin: "0px 0px -50px 0px",
+        };
+        const appearOnScroll = new IntersectionObserver(function (
+          entries,
+          observer
+        ) {
+          entries.forEach((entry) => {
+            if (!entry.isIntersecting) return;
+            entry.target.classList.add("visible");
+            observer.unobserve(entry.target);
+          });
+        },
+        appearOptions);
+        faders.forEach((fader) => appearOnScroll.observe(fader));
+      });
+    </script>
+  </body>
 </html>
